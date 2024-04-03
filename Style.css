@@ -4,7 +4,7 @@
     font-family: century;
 }
 header{
-    background-image: linear-gradient(0.6deg,black,transparent),url(Logo1.jpg);
+    background-image: linear-gradient(60deg,black, rgb(169, 232, 240), transparent),url(Logo1.jpg);
     height: 100vh;
     display: flex;
     background-size: cover;
@@ -53,7 +53,7 @@ h3{
     color: #fff;
     font-size: 40px;
     float: left;
-    font-family: century;
+    font-family: century ;
 
 }
 .main{
