@@ -1,8 +1,76 @@
 *{
     margin: 0;
     border: 0;
+    font-family: century;
 }
-.Container{
+header{
+    background-image: linear-gradient(0.6deg,black,transparent),url(Logo1.jpg);
+    height: 100vh;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+    min-height: 100px;
+
+}
+ul{
+    float: left;
+    list-style-type: none;
+    margin-top: 30px;
+    min-height: 400px;
+    margin-right: 60px;
+    font-size: 17px;
+    color:#fff
+
+}
+ul li{
+display: inline-block;
+}
+ul li a{
+    text-align: none;
+    color: #fff;
+    padding: 5px 10px;
+    border: 1px solid transparent;
+    transition: 0.5 ease;
+
+}
+ul li a:hover{
+    background-color: #fff;
+    color: black;
+}
+
+h1{
+
+    float: left;
+    border-bottom: 50px;
+    font-size: bold;
+    color: #fff;
+}
+h2{
+    color: black;
+    font-size: 40px;
+}
+h3{
+    color: #fff;
+    font-size: 40px;
+    float: left;
+    font-family: century;
+
+}
+.main{
+    width: 1200px;
+    
+}
+.title{
+    position: fixed;
+    top: 10%;
+    left: 60px;
+    color: #fff;
+    
+
+
+
+}
+/*
 display: flex;
 min-height: 100vh;
 background: rgba(0, 0, 0, 0.452);
@@ -33,4 +101,4 @@ opacity: 3;
 .Container .list.ul{
 
 
-}
+}*/
