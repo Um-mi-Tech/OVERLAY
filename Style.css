@@ -1,4 +1,5 @@
-*{
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Infant:wght@300&family=Inter:wght@100..900&family=Nanum+Myeongjo:wght@400;800&family=Open+Sans:wght@300&family=PT+Sans&family=Plus+Jakarta+Sans&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sanchez&display=swap');
+   *{
     margin: 0;
     border: 0;
     font-family: century;
@@ -39,25 +40,36 @@ ul li a:hover{
 }
 
 h1{
-
+    letter-spacing: 3px;
+    font-family: "Roboto", sans-serif;
     float: left;
     border-bottom: 50px;
     font-size: bold;
     color: #fff;
 }
 h2{
-    color: black;
-    font-size: 40px;
+    letter-spacing: 2px;
+    border-bottom: 3px;;
+    border-color: #000;
+    font-family: "Quicksand", sans-serif;
+    color: #000;
+    text-shadow: 3px 3px #fff;
+
+    font-size: 45px;
 }
 h3{
-    color: #fff;
-    font-size: 40px;
+    letter-spacing: 2px;
+    color:#fff;
+    font-size: 45px;
     float: left;
+   
     font-family: century ;
 
 }
 .main{
     width: 1200px;
+    text-decoration: underline;
+    text-decoration-color:black;
     
 }
 .title{
@@ -65,11 +77,56 @@ h3{
     top: 10%;
     left: 60px;
     color: #fff;
-    
-
-
-
 }
+.paragraph {
+position: fixed;
+top:29%;
+left: 60px;
+color:#fff;
+}
+p{
+    font-weight: 50px;
+    opacity: 3px;
+    color: #fff;
+    font: size 10px;
+    float: left;
+    font-family: "Arsenal", sans-serif;
+}
+ button{
+    position: fixed;
+    top:39%;
+    left: 60px;
+    float: left;
+    color: #fff;
+    padding: 3px 5px;
+    margin: auto;
+    background: linear-gradient(to right, rgb(88, 111, 141),rgb(241, 131, 148));
+ }
+      .search{
+              height: 20%;
+      }
+     form{
+        float:right;
+        position: fixed;
+        right: 30%;
+        top: 8%;
+        height: 50px;
+        width: 8px;
+        border: 10px;
+        border-width: 10px;
+        shape-outside: margin-box;
+     }
+     h4{
+        float: right;
+        position: fixed;
+        right: 15%;
+        top:8%;
+        height: 10px;
+        font-family:"Arsenal", sans-serif; 
+        font-size: bold;
+
+
+     }
 /*
 display: flex;
 min-height: 100vh;
