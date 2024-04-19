@@ -8,7 +8,7 @@
     padding: 0;
 }
 body{
-    background: url(Logo1.jpg);
+    background: url(UpSplash1.jpg);
     width: 100%;
     height: 100vh;
     background-size: cover;
@@ -50,9 +50,9 @@ body{
 }
 .box2{
   position: relative;
-  width: 30px;
+  width: 20px;
   height:100px;
-  /*background-color: transparent;*/
+  background-color: transparent;
   
 
 }
@@ -60,47 +60,49 @@ body{
   content: '';
   position: absolute;
   justify-content: left; 
-  left:10px;
+  left:3px;
   width: 20px;
-  height: 50vh;
+  height: 40vh;
   border-radius: 20px;
   padding: 10px;
-  background: linear-gradient(to bottom , pink, rgba(93, 218, 218, 0.637));
-  
+  background: linear-gradient(to bottom , pink, rgba(95, 93, 218, 0.856));
   }
-  .box3{
+ 
+ .box3{
     position: relative;
     width: 30px;
     height:100px;
   }
-  .box3::before{
+  .box3::after{
     content: '';
     position: absolute;
     justify-content: left; 
-    left:10px;
+    left:5px;
     width: 20px;
-    height: 50vh;
+    height: 30vh;
     border-radius: 20px;
     padding: 10px;
-    background: linear-gradient(to bottom , pink, rgba(93, 218, 218, 0.637));
+    background: linear-gradient(to bottom , pink,  rgba(95, 93, 218, 0.856));
   }
+ 
     .box4{
       position: relative;
-      width: 30px;
+      width: 10px;
       height:100px;
     }
     .box4::before{
       content: '';
       position: absolute;
       justify-content: left; 
-      left:10px;
-      width: 20px;
-      height: 50vh;
+      left:3px;
+      width: 10px;
+      height: 10vh;
       border-radius: 20px;
       padding: 10px;
-      background: linear-gradient(to bottom , pink, rgba(93, 218, 218, 0.637));
- /* z-index: -1; */
-}
+      background: linear-gradient(to bottom , pink,  rgba(95, 93, 218, 0.856));
+    }
+ 
+
 .box5{
   position: relative;
   width: 30px;
@@ -109,87 +111,91 @@ body{
 .box5::before{
   content: '';
   position: absolute;
-  justify-content: center;
-  align-items: center; 
-  left:20px;
+ float: left;
+ justify-content: left;
+ left: 1px;
   width: 20px;
   height: 10vh;
   border-radius: 20px;
   padding: 10px;
+  top:500px;
   background: linear-gradient(to bottom , pink, rgba(93, 218, 218, 0.637));
-}
-.box ul{
-float:left;
-padding: 2px;
-border: 20px;
-}
- .box ul li{
-    color: #f6f6f6;
-    left:20%;
-    top:10%;
-    justify-items: left;
-    float: left;
-    padding: 20px; border: 30px;
-    list-style: none;
-    
-}
-.box ul li :hover{
-    color: white;
-    background-color: #333333;
-    border: #f6f6f6;
- 
-    
-}
-.box ul li a{
-  position:relative;
-  text-decoration: none;
-  font-family: poppins sans-serif;
-  color: #f6f6f6;
-  font-size: 18px;
-  letter-spacing: 0.5px; 
 
 }
-.box a::after{
-  content: '';
-  position: absolute;
-  left: 0;
-  bottom: 10px;
-  transition: 0.3s;
+.box nav a{
+  text-decoration: none;
   
+  color: #898989;
+  font-size: 20px;
+  font-weight: 0 10px;
+  margin: 30px;
+  position: relative;
+  padding-top: 30%;
+ left: 8%;
+ top: 20%;
+ padding-top: 20%;
+
+
 }
-  .box a:hover{
-  color: #ffff;
- }
- a:hover::after{
+nav a:hover{
+  color: #f6f6f6;
+  
+ 
+
+}
+    
+
+nav a::before{
+  content: "";
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 0;
+  height: 3px;
+  background-color:white;
+  transition:  0.3s;
+ 
+
+}
+
+
+ nav a:hover::before{
   width: 100%;
+  
+
  }
+
+
 
   .search{
-    display: flex;
-    width: 200px;
-    padding: 10px;
-    justify-items: right;
-    align-self: right;
-    border-radius: 30px;
-    background: #f6f6f6;
-   right: 10%;
-    float: right;
-    justify-content: space-between;
-    
-
-
-  
+   border-radius: 20px;
+   --padding:14px;
+   width: 250px;
+   justify-content: right;
+   background-color: #f6f6f6;
+   position: absolute;
+   float: right;
+   right: 20%;
   }
   .search-input{
-    font-size: 30px;
+    font-size: 20px;
     font-family: poppins, sans-serif;
     color: #333333;
+    margin: var(--padding);
     border: none;
-    display: flex;
-    float: right;
-    right: 100px;
+    outline: none;
     background: transparent;
-
+  
+  }
+   h2{
+    position: absolute;
+    text-align: right;
+   right: 13%;
+   font-size: 20px;
+   font-family: poppins, sans-serif;
+   color: #f6f6f6;
+   top: 10px;
+   left: 10%;
   }
   .box h1{
     font-size: 50px;
@@ -199,7 +205,7 @@ border: 20px;
     align-items: left; 
     position: absolute;
     justify-content: left;
-    left:8%;
+    left:10%;
     
 
   }
@@ -212,7 +218,7 @@ border: 20px;
     align-items: left; 
     position: absolute;
     justify-content: left;
-    left:8%;
+    left: 10%;
   }
   .box button{
     padding: 10px;
@@ -225,25 +231,30 @@ border: 20px;
     align-items: left; 
     position: absolute;
     justify-content: left;
-    left:8%;
+    left: 10%;
   }
-
-  .box .material-icons.pink600 {
-
-    font-family: 'Material Icons';
-    font-weight: normal;
-    font-style: normal;
-    font-size: 48px;  /* Preferred icon size */
-    display: flex;
-   /* border-radius: 20px;
-    line-height: 1;
-    text-transform: none;
-    letter-spacing: normal;
-    word-wrap: normal;
-   white-space: nowrap;
-   direction;1tr; */
-     left: 8%;
-     bottom: 600px;
-     color: rgba(255, 192, 203, 0.89);
+  .fa-telegram{
+  color: pink;
+  font-size: 50px;
+  top: 700px;
+  left: 10%;
+  position: absolute;
   }
-  
+  .fa-twitter{
+    color: pink;
+    font-size: 50px;
+    top: 700px;
+    left: 30%;
+    position: absolute;
+    }
+    .fa-facebook{
+      color: pink;
+      font-size: 50px;
+      top: 700px;
+      left: 50%;
+
+      position: absolute;
+      }
+
+
+ 
