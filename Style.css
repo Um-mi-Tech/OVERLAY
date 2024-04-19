@@ -1,6 +1,8 @@
 @import url('https://fonts.googleapis.com/css2?family=Arsenal:ital,wght@0,400;0,700;1,400;1,700&family=Cormorant+Infant:wght@300&family=Inter:wght@100..900&family=Nanum+Myeongjo:wght@400;800&family=Open+Sans:wght@300&family=PT+Sans&family=Plus+Jakarta+Sans&family=Quicksand:wght@300..700&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Sanchez&display=swap');
 
-
+span{
+  color: #898989;
+}
 
 
 *{
@@ -179,12 +181,13 @@ nav a::before{
   }
   .search-input{
     font-size: 20px;
-    font-family: poppins, sans-serif;
+    font-family: "poppins", sans-serif;
     color: #333333;
     margin: var(--padding);
     border: none;
     outline: none;
     background: transparent;
+    top: 10%;
   
   }
    h2{
@@ -192,14 +195,14 @@ nav a::before{
     text-align: right;
    right: 13%;
    font-size: 20px;
-   font-family: poppins, sans-serif;
+   font-family: "poppins", sans-serif;
    color: #f6f6f6;
    top: 10px;
    left: 10%;
   }
   .box h1{
     font-size: 50px;
-    font-family: poppins, sans-serif;
+    font-family: "poppins", sans-serif;
     color: WHITE;
     top: 60%;
     align-items: left; 
@@ -211,7 +214,7 @@ nav a::before{
   }
   .box p{
     font-size: 20px;
-    font-family: poppins, sans-serif;
+    font-family: "poppins", sans-serif;
     color: WHITE;
     opacity: 60%;
     top: 350px;
@@ -224,7 +227,7 @@ nav a::before{
     padding: 10px;
     border-radius: 20px;
     font-size: 10px;
-    font-family: poppins, sans-serif;
+    font-family: "poppins", sans-serif;
     color: #f6f6f6;
     background:linear-gradient(to right, rgba(255, 192, 241, 0.863), rgba(135, 207, 241, 0.959));
     top: 450px;
