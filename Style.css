@@ -9,7 +9,7 @@ span{
     padding: 0;
 }
 body{
-    background: url(UpSplash1.jpg);
+  background-image: url(index\ picture/UpSplash1.jpg);
     width: 100%;
     height: 100vh;
     background-size: cover;
