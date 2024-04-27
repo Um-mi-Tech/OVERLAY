@@ -24,7 +24,6 @@
     justify-content: space-evenly;
     background: #000000b4;
     width: 50%;
-    opacity: 0.7;
     min-height: 100vh;
 
 }
@@ -37,6 +36,7 @@ header{
    width: 100%;
    justify-content: space-between;
    z-index: 999;
+   color:#fff
 
 
 }
@@ -45,7 +45,38 @@ nav ul{
     justify-content: space-between;
     gap: 20px;
     align-items: center;
-    color:#fff
+   
+}
+
+nav a{
+    text-decoration: none;
+    color: #898989;
+
+}
+
+ nav a:hover{
+    color: #fff;
+}
+
+ nav a::before{
+    content: "";
+    height: 5px;
+    bottom: -10px;
+    width: 0;
+    left: 100%;
+    background-color: #fff;
+    transition: 0.3sec;
+}
+
+ a:hover::before{
+    width: 100%
+}
+.section_2{
+    padding: 2rem 3rem;
+    font-family: "Montserrat", sans-serif;
+    width: 50%;
+    min-height: 100vh;
+
 }
 
 
