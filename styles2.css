@@ -111,11 +111,13 @@ button{
 .social-Media i{
     color:pink;
 }
+
 .section_2{
     background: none;
     width: 50%;
     min-height: 100vh;
 }
+
 form{
  padding: 20px;
 
@@ -128,6 +130,12 @@ form{
     width: 300px;;
 }
 
+.section_2 h2{
+    margin-left: 80%;
+    font-size: 20px;
+    color: #fff;
+    
+    
 
-
+}
 
