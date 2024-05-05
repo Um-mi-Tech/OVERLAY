@@ -38,7 +38,30 @@
     width: 45%;
 
 }
+ .section11{
+    width: 20%;
+    background: rgba(0, 0, 0, 0.514);
+    background-blend-mode: darken;
+ }
+.gradient-box{
+    position: relative;
+    width: 400px;
+    height:200px;
+    background-color: transparent;
+    border: none;
 
+
+}
+.box1{
+    position: relative;
+    background: linear-gradient(0deg, rgba(115, 130, 226, 1) 0%,
+    rgba(241,118,255,1) 100%);
+     width: 33px;
+     height: 280px;
+     border-radius: 0 0 20px 20px;
+     translate:-15px 0;
+
+}
  
 
 nav ul{ 
@@ -84,11 +107,11 @@ nav li a{
  }
 h1{
     font-size: 4rem;
-    color: #fff;
-    line-height: 78px;   
-     letter-spacing: 1px;
-     font-weight:800 ;
-     text-transform: uppercase;
+    font-weight: 800;
+    line-height: 75px;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    margin-bottom: 25px;
 
 }
 .text span{
@@ -98,12 +121,9 @@ h1{
 
  }
 p{
-    font-size: 15px; 
-    opacity: 2rem;
-    color: #fff;
-    padding-top: 30px;
-    opacity: 40%; 
-    padding-bottom: 20px;
+    width: 63%;
+    font-weight: 400;
+    margin-bottom: 15px;
 
     
 }
@@ -114,27 +134,31 @@ button{
 }
 
 .social{
+    margin-top: 3rem;
     display: flex;
-   font-size: 30px;
-   gap: 40px;
-}
-.social-Media i{
-    color:pink;
+    justify-content: space-between;
+    padding-top: 50px;
+   
 }
 
+.social i{
+    font-size: 50px;
+    padding: 20px;
+}
 .section_2{
    display: flex;
 }
 
 
 .section_2 header{
+    position: relative;
     display: flex;
-    align-items: center; 
-    gap: 20px;
     color: #fff;
     width: 100%;
     justify-content: space-between;
-    color:#fff  
+    color:#fff;
+    padding: 10px;
+    padding-right: 30px;
 }
 
 form{
@@ -143,18 +167,21 @@ form{
 }
 
 .section_2 input{
-    margin-left: 40%;
     border-radius: 40px;
     padding: 20px;
+    outline: none;
+    width:300px;
+    
    
 } 
 
-/*.section_2 h2{
-    margin-left: 80%;
-    font-size: 20px;
-    color: #fff;
-    
+.section_2 header h2{
+    letter-spacing: 1px;
+    font-size: 1.1rem;
+    padding-top: 35px;
+
+
     
 
 }
- */
+ 
