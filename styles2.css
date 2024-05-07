@@ -18,7 +18,6 @@
 .container{
     display: flex;
     width: 100%;
-    min-height: 100vh;
     background:url(IMG05.jpg) no-repeat center center/cover;
     max-width: 100%;
     justify-content: space-between;
@@ -127,7 +126,7 @@ header{
 
  .btn{
     border-radius:10px;
-    background: linear-gradient(to left,rgba(0, 225, 255, 0.829), rgba(255, 192, 203, 0.904));
+    background: linear-gradient(270deg, rgba(115,129,226,.5) 0%, rgba(228,171,235,.8) 100%);
     padding: 5px;
     text-transform: uppercase;
     color: #fff;
