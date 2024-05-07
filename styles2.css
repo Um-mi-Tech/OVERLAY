@@ -16,11 +16,13 @@
 }
 
 .container{
+    min-height: 100vh;
     display: flex;
     width: 100%;
     background:url(IMG05.jpg) no-repeat center center/cover;
     max-width: 100%;
-    justify-content: space-between;
+    align-items: center;
+    justify-content: space-between ;
 
 }
 .main{
@@ -35,6 +37,7 @@
     flex-direction: column;
     background: rgba(0, 0, 0, 0.7);
     background-blend-mode: darken;
+    color: white;
     
 }
 .section-12{
@@ -100,7 +103,7 @@ header{
  .text h1{
     font-family: "poppins", sans-serif;
     font-size: 80px;
-    font-weight: 500;
+    font-weight: 800;
     color: #fff;
     text-transform: uppercase;
     padding-bottom: 30px; 
