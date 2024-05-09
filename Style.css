@@ -6,7 +6,8 @@
 
 
 span{
-  color: #898989;
+color:#000;
+-webkit-text-stroke: 2px #f6f6f6;
 }
 
 
@@ -15,7 +16,7 @@ span{
     padding: 0;
 }
 body{
-  background-image: url(UpSplash1.jpg);
+  background-image: url(index\ picture/UpSplash1.jpg);
     width: 100%;
     height: 100vh;
     background-size: cover;
@@ -129,9 +130,7 @@ body{
   background: linear-gradient(to bottom , pink, rgba(93, 218, 218, 0.637));
 
 }
-.box nav a{
-  text-decoration: none;
-  
+.box nav a{  
   color: #898989;
   font-size: 20px;
   font-weight: 0 10px;
@@ -159,6 +158,7 @@ nav a::before{
   left: 0;
   width: 0;
   height: 3px;
+  outline: none;
   background-color:white;
   transition:  0.3s;
  
