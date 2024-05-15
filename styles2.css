@@ -54,7 +54,7 @@
     background: linear-gradient(0deg, rgba(115, 130, 226, 1) 0%,
     rgba(241,118,255,1) 100%);
     width: 38px;
-    height: 280px;
+    height: 290px;
     border-radius: 0 0 20px 20px;
     translate:-15px 0;
 }
@@ -63,7 +63,7 @@
     position: absolute;
     background: linear-gradient(270deg, rgba(115,129,226,.5) 0%, rgba(228,171,235,.8) 100%);
      width: 43px;
-     height: 230px;
+     height: 240px;
      border-radius: 0 0 20px 20px;
      translate: -4px 0;
      z-index: 1;
@@ -83,42 +83,54 @@
     position: absolute;
     background:linear-gradient(270deg, rgba(115, 130, 226, 0.774) 0%, rgb(228, 171, 235) 100%);;
     width:30px;
-    height: 80px;
+    height: 60px;
     border-radius:20px;
-    bottom: 40%;
+    bottom: 50%;
     z-index: 1;
+    translate:30px 0;
 } 
 
 .box5{
     position: absolute;
     background: linear-gradient(270deg, rgba(115,129,226,.5) 0%, rgba(228,171,235,.8) 100%);
-    width: 20px;
-    height: 80px;
+    width: 10px;
+    height: 50px;
     bottom: 0;
     border-radius: 20px 20px 0 0;
-    translate:-15px 0;
+    translate:-40px 0;
 }
 
 .box6{
     position: absolute;
     background: linear-gradient(270deg, rgba(115,129,226,.5) 0%, rgba(228,171,235,.8) 100%);
      width: 43px;
-     height: 230px;
+     height: 240px;
      bottom: 0;
      border-radius:20px 20px 0 0;
-     translate: 4px 0;
+     translate: -30px 0;
      z-index: 1;
 }
 
 .box7{
     position: absolute;
     background: linear-gradient(270deg, rgba(115, 130, 226, 0.753) 0%, rgba(228,171,235,.8) 100%);
-    width:38px;
-    height: 280px;
+    width:35px;
+    height: 290px;
     bottom:0;
     border-radius: 20px 20px 0 0;
-    translate:25px 0;
+    translate:-10px 0;
      z-index: 1;
+}
+
+.box8{
+    position: absolute;
+    background: linear-gradient(270deg, rgba(115, 130, 226, 0.753) 0%, rgba(228,171,235,.8) 100%);
+    width:30px;
+    height: 60px;
+    border-radius:20px;
+    translate:-50px 0;
+    bottom: 30%;
+    z-index: 1;
 }
 
 
