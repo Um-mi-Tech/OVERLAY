@@ -240,7 +240,7 @@ nav a{
  }
 
  .social-icons a{
-    padding:  8px 8px 5px 8px;
+    padding:   0.5px 8px;
     border-radius: 50%;
     background:white;
  }
@@ -307,12 +307,11 @@ input{
        
     }
   
-       @media screen and (max-width: 600px)
+       @media screen and (max-width: 800px)
         {
-
             .container{
-                min-height: 150vh;
-                width: 800px;
+                min-height: 100vh;
+                min-width: 800px;
                 background:url(IMG05.jpg) no-repeat center center/cover;
                
             }
@@ -320,10 +319,16 @@ input{
             main{
                
                 min-height: 100vh; 
-                width:700px;
+                max-width:700px;
             }
+            header{
+                padding-bottom: 60px;
+            }
+
              .section_1{
-                width: 400px;
+                max-width: 300px;            
+                padding: 2rem; 
+
             
             }
 
@@ -335,8 +340,12 @@ input{
                 font-size: 50px;
                 font-weight: 800;
             }
+ 
+            nav ul li a{
+                font-size: 13px;
+             
+            }
 
-            
-
-       }
-
+    
+  
+    }
